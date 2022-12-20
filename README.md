@@ -1,4 +1,4 @@
-# C-
+# CppProject
 
 #include <iomanip> // Forma o numero de casas decimais
 #include <string> // Gerencia variavel de texto
