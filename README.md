@@ -55,3 +55,59 @@ int main()
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <bits/stdc++.h> // Biblioteca universal!!! 
+
+using namespace std;
+
+// fazer o problema tempo base com a adição de pode escolhe se vai se de segundos || minutos para horas ou dia (ai tem o de horas tambem) e o inverso
+
+int main()
+{
+    string opcao, transformacao;
+    // problema tempo
+    
+    int horas, minutos, segundos, dia, mes, ano;
+    // levando mes como tendo 30 dias
+    
+    cout << "Escolha qual o tipo de dado que ira se transformado: ";
+    getline(cin, opcao);
+    if(opcao == "segundos"){
+        cout << "Fale em qual tipo de dados voce que tranformar: ";
+        getline(cin, transformacao);
+        cout << "Quanto segundos voce que transformar :";
+        cin >> segundos;
+        if(transformacao == " Segundos"){
+            cout << segundos << "Segundos";
+        } else if(transformacao == "minutos"){
+            
+        } else if(transformacao == "horas"){
+            
+        } else if(transformacao == "mes"){
+            
+        } else if(transformacao == "ano"){
+            
+        }
+    }
+    
+    
+    return 0;
+}
+
