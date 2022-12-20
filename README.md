@@ -25,7 +25,7 @@ int main()
     getline(cin, nome); // codigo para lê uma string, com o getline não e preciso limpa a linha depois dele,  mas apenas o getline
     cout << "Digite seu genero: ";
     cin >> genero;
-    // cin.ignore(cin, variavel) Limpa o input
+    // cin.ignore(INT_MAX, '\n') Limpa o input
 
     cout << fixed << setprecision(2); // Formatação de ponto futuante
     // cout << ____; = printf("")
